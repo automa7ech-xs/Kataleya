@@ -1,0 +1,450 @@
+{
+  "commonVariables": [
+    {
+      "starIcon": "${commonVariables.starIcon}",
+      "suero": "Naranja Piña, Menta, Fresa, Manzana, Menta, Avellana, Cafe",
+      "frappe": "Fresa, Guanábana, Naranja, Melocotón",
+      "batido": "Naranja Piña, Menta, Fresa, Manzana, Mani",
+      "yogurt": "Coco arándano, Kiwi, Fresa, Arándanos",
+      "vaca": "..."
+    }
+  ],
+  "product_cafe": [
+    {
+      "id": "expreso",
+      "title": "Cafe Expresso",
+      "image": "expresso.png",
+      "star": 4,
+      "price": 50,
+      "agotado": 0,
+      "favorito": 0,
+      "descripcion": "1 o 2 shots de espresso"
+    },
+    {
+      "id": "afogato",
+      "title": "Cafe Afogato",
+      "image": "nose.png",
+      "star": 4,
+      "price": 80,
+      "agotado": 1,
+      "favorito": 1,
+      "descripcion": "- 1 o 2 bolas de helado</br>- 1 o 2 shots de espresso frio"
+    },
+    {
+      "id": "bombom",
+      "title": "Cafe Bombom",
+      "image": "bombom.png",
+      "star": 4,
+      "price": 100,
+      "agotado": 0,
+      "favorito": 0,
+      "descripcion": "- 1 shot de espresso </br>- 1 cucharada de leche condensada."
+    },
+    {
+      "id": "frapuchino",
+      "title": "Cafe Frapuchino",
+      "image": "frapuchino.png",
+      "star": 4,
+      "price": 100,
+      "agotado": 1,
+      "favorito": 1,
+      "descripcion": "- 2 bolas de helado</br>- Topin"
+    },
+    {
+      "id": "dalgona",
+      "title": "Dalgona",
+      "image": "cafeDalgona.png",
+      "star": 4,
+      "price": 200,
+      "agotado": 1,
+      "favorito": 1,
+      "descripcion": "- Crema de café  </br>- Leche</br>- </br>- Topin de Café"
+    },
+    {
+      "id": "leche",
+      "title": "Leche",
+      "image": "leche.png",
+      "star": 4,
+      "price": 80,
+      "agotado": 1,
+      "favorito": 1,
+      "descripcion": "- Leche en polvo</br>- Agua caliente"
+    },
+    {
+      "id": "capuchino",
+      "title": "Capuchino",
+      "image": "capuchinoNew.png",
+      "star": 4,
+      "price": 120,
+      "agotado": 1,
+      "favorito": 1,
+      "descripcion": "- 1 shot de espresso.</br>- 1/3 de leche caliente.</br>- 1/3 de espuma de leche caliente."
+    },
+    {
+      "id": "moka",
+      "title": "Moka",
+      "image": "moka.png",
+      "star": 4,
+      "price": 120,
+      "agotado": 1,
+      "favorito": 1,
+      "descripcion": "- Café Capuchino .</br>- Chocolate."
+    },
+    {
+      "id": "ruso",
+      "title": "Cafe Ruso",
+      "image": "ruso.png",
+      "star": 5,
+      "price": 80,
+      "agotado": 1,
+      "favorito": 1,
+      "descripcion": "- 1 taza de café fuerte.</br>- 1 bola de helado."
+    },
+    {
+      "id": "chocolate",
+      "title": "Leche con Chocolate",
+      "image": "lecheConChocolate.png",
+      "star": 4,
+      "price": 100,
+      "agotado": 1,
+      "favorito": 1,
+      "descripcion": "- Leche en polvo.</br>- Chocolate en polvo.</br>- Agua caliente."
+    },
+    {
+      "id": "cortadito",
+      "title": "Cafe Cortadito",
+      "image": "cortadito.png",
+      "star": 5,
+      "price": 80,
+      "agotado": 1,
+      "favorito": 0,
+      "descripcion": "- 1 shot de espresso.</br>- 1 shot de leche evaporada."
+    },
+    {
+      "id": "lecheconcafe",
+      "title": "Leche con Cafe",
+      "image": "cafeConLeche.png",
+      "star": 4,
+      "price": 100,
+      "agotado": 1,
+      "favorito": 1,
+      "descripcion": "- Leche en polvo.</br>- Café instantáneo.</br>- Agua caliente"
+    }
+  ],
+  "product_fria": [
+    {
+      "id": "Suero",
+      "title": "Suero",
+      "image": "seuros.png",
+      "star": 5,
+      "price": 150,
+      "agotado": 1,
+      "favorito": 0,
+      "descripcion": "- 3 bolsas de helado </br>- medio de helio </br>- media de leche"
+    },
+    {
+      "id": "Frappe",
+      "title": "Frappe",
+      "image": "frape.png",
+      "star": 5,
+      "price": 60,
+      "agotado": 1,
+      "favorito": 0,
+      "descripcion": "- Esencia </br>- Medio de hielo"
+    },
+    {
+      "id": "VacaNegra",
+      "title": "Vaca Negra",
+      "image": "vacanegra.png",
+      "star": 4,
+      "price": 100,
+      "agotado": 1,
+      "favorito": 0,
+      "descripcion": "- Refresco gaseado </br>- 1 bola de helado"
+    },
+    {
+      "id": "Naranjada",
+      "title": "Naranjada",
+      "image": "naranjada_.png",
+      "star": 4,
+      "price": 100,
+      "agotado": 0,
+      "favorito": 0,
+      "descripcion": "- Refresco de naranja </br>- 1 bola de helado"
+    },
+    {
+      "id": "PiñaColada",
+      "title": "Piña Colada",
+      "image": "piñacolada.png",
+      "star": 4,
+      "price": 100,
+      "agotado": 0,
+      "favorito": 0,
+      "descripcion": "...."
+    },
+    {
+      "id": "SuperYogurt",
+      "title": "Super Yogurt",
+      "image": "superYogurt.png",
+      "star": 4,
+      "price": 150,
+      "agotado": 1,
+      "favorito": 1,
+      "descripcion": "- Yogurt Natural </br>- Topin"
+    },
+    {
+      "id": "YogurtVaso",
+      "title": "Yogurt en vaso",
+      "image": "yogures.png",
+      "star": 4,
+      "price": 80,
+      "agotado": 1,
+      "favorito": 0,
+      "descripcion": "- Yogurt natural </br>- Topin"
+    },
+    {
+      "id": "Batidos",
+      "title": "Batidos",
+      "image": "batidos.png",
+      "star": 5,
+      "price": 120,
+      "agotado": 1,
+      "favorito": 0,
+      "descripcion": "- 3 bolsas de helado </br>- medio de helio </br>- media de leche"
+    },
+    {
+      "id": "Pitufo",
+      "title": "Pitufo",
+      "image": "Pitufo.png",
+      "star": 5,
+      "price": 80,
+      "agotado": 0,
+      "favorito": 0,
+      "descripcion": "- Frappe de Limón </br>- Topin blue"
+    },
+    {
+      "id": "CopaRebelde",
+      "title": "Copa Rebelde",
+      "image": "CopaRebelde.png",
+      "star": 5,
+      "price": 80,
+      "agotado": 0,
+      "favorito": 0,
+      "descripcion": "- Frappe de Limón </br>- Esencia de menta"
+    },
+    {
+      "id": "SuperFrap",
+      "title": "Super Frap",
+      "image": "superFrap.png",
+      "star": 5,
+      "price": 200,
+      "agotado": 1,
+      "favorito": 1,
+      "descripcion": "- 1 bola de helado </br>- leche </br>- hielo </br>- muss de cafe"
+    },
+    {
+      "id": "Chocomani",
+      "title": "ChocoMani",
+      "image": "Chocomani.jpg",
+      "star": 5,
+      "price": 140,
+      "agotado": 1,
+      "favorito": 1,
+      "descripcion": "- 1 bola de helado </br>- leche </br>- hielo </br>- muss de cafe"
+    },
+    {
+      "id": "CopaFantasia",
+      "title": "Copa Fantasia",
+      "image": "copaFantasia1.png",
+      "star": 5,
+      "price": 200,
+      "agotado": 1,
+      "favorito": 1,
+      "descripcion": "- Topin de caramelo </br>- muss de café </br>- 2 bola de de helado de café </br>- Grajea"
+    },
+    {
+      "id": "DaikiriChicle",
+      "title": "Daikiri Chicle",
+      "image": "daikiriChicle.png",
+      "star": 5,
+      "price": 100,
+      "agotado": 0,
+      "favorito": 1,
+      "descripcion": "- Frappe de Limón<br/>- Esencia de Platanito"
+    }
+  ],
+  "product_ss": [
+    {
+      "id": "Gelatina",
+      "title": "Gelatina",
+      "image": "Gelatina.jpg",
+      "star": 4,
+      "price": 60,
+      "agotado": 0,
+      "favorito": 0,
+      "descripcion": "....."
+    },
+    {
+      "id": "Donas",
+      "title": "Donas",
+      "image": "donas.png",
+      "star": 5,
+      "price": 80,
+      "agotado": 0,
+      "favorito": 1,
+      "descripcion": "....."
+    },
+    {
+      "id": "Pizza",
+      "title": "Pizza",
+      "image": "Pizza.jpg",
+      "star": 3,
+      "price": 150,
+      "agotado": 0,
+      "favorito": 1,
+      "descripcion": "....."
+    },
+    {
+      "id": "PanPerrito",
+      "title": "Pan con Perrito",
+      "image": "Perrito.jpg",
+      "star": 4,
+      "price": 100,
+      "agotado": 0,
+      "favorito": 0,
+      "descripcion": "....."
+    },
+    {
+      "id": "PanMantequilla",
+      "title": "Pan con Mantequilla",
+      "image": "Mantequilla.jpg",
+      "star": 3,
+      "price": 50,
+      "agotado": 0,
+      "favorito": 0,
+      "descripcion": "....."
+    },
+    {
+      "id": "PanMayonesa",
+      "title": "Pan con Mayonesa",
+      "image": "Mayonesa.jpg",
+      "star": 3,
+      "price": 50,
+      "agotado": 0,
+      "favorito": 0,
+      "descripcion": "....."
+    },
+    {
+      "id": "MussKiwi",
+      "title": "Muss de Kiwi",
+      "image": "copaDeKiwi.png",
+      "star": 5,
+      "price": 100,
+      "agotado": 1,
+      "favorito": 1,
+      "descripcion": "- Crema batida </br>- Esencia"
+    },
+    {
+      "id": "MussFresa",
+      "title": "Copa Pasion",
+      "image": "musseFresa.jpg",
+      "star": 5,
+      "price": 200,
+      "agotado": 1,
+      "favorito": 1,
+      "descripcion": "- Crema batida </br>- Esencia"
+    },
+    {
+      "id": "MussHelado",
+      "title": "Muss Helado",
+      "image": "MussHelado.jpg",
+      "star": 5,
+      "price": 150,
+      "agotado": 0,
+      "favorito": 1,
+      "descripcion": "..."
+    },
+    {
+      "id": "Sandwichqueso",
+      "title": "Sandwich de queso",
+      "image": "panes2.jpg",
+      "star": 4,
+      "price": 80,
+      "agotado": 1,
+      "favorito": 0,
+      "descripcion": "....."
+    }
+  ],
+  "product_pi": [
+    {
+      "id": "Pomoagua",
+      "title": "Pomo de agua",
+      "image": "PomoAgua.jpg",
+      "star": 4,
+      "price": 50,
+      "agotado": 1,
+      "favorito": 0,
+      "descripcion": "....."
+    },
+    {
+      "id": "Energizantes",
+      "title": "Bebidas Energizantes",
+      "image": "Energizantes.jpg",
+      "star": 5,
+      "price": 200,
+      "agotado": 1,
+      "favorito": 0,
+      "descripcion": "....."
+    },
+    {
+      "id": "Chupa",
+      "title": "Chupa Chupa",
+      "image": "ChupaChupa.jpg",
+      "star": 5,
+      "price": 50,
+      "agotado": 1,
+      "favorito": 0,
+      "descripcion": "....."
+    },
+    {
+      "id": "Galletas",
+      "title": "Galletas",
+      "image": "galletas60.jpg",
+      "star": 4,
+      "price": 60,
+      "agotado": 1,
+      "favorito": 0,
+      "descripcion": "....."
+    },
+    {
+      "id": "Galletas2",
+      "title": "Galletas",
+      "image": "galletas100.jpg",
+      "star": 5,
+      "price": 100,
+      "agotado": 1,
+      "favorito": 0,
+      "descripcion": "....."
+    },
+    {
+      "id": "Gaseosa",
+      "title": "Gaseosa",
+      "image": "gaseosa.png",
+      "star": 5,
+      "price": 180,
+      "agotado": 1,
+      "favorito": 0,
+      "descripcion": "....."
+    },
+    {
+      "id": "lata",
+      "title": "Refresco de lata",
+      "image": "RefrescoG.png",
+      "star": 5,
+      "price": 180,
+      "agotado": 1,
+      "favorito": 0,
+      "descripcion": "....."
+    }
+  ]
+}
